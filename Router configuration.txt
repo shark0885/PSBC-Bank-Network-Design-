@@ -1,0 +1,27 @@
+en
+config t
+
+hostname Floor1-CoreLayer-R
+banner motd #This Floor1-CoreLayer-Router#
+
+line console o
+password cisco
+login
+exit
+
+ip domain-name cisco.net
+username cisco password cisco
+crypto key generate rsa
+1024
+line vty 0 15
+login loacal
+transport input ssh
+exit
+
+
+no ip domain-lookup
+enable password cisco
+service password-encryption
+
+
+do wr

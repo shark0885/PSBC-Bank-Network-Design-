@@ -1,0 +1,19 @@
+en
+config t
+
+hostname Floor1-l3-sw
+banner motd #This Floor1-l3-switch#
+
+line console o
+password cisco
+login
+exit
+
+line vty 0 15
+password cisco
+login
+exit
+
+no ip domain-lookup
+enable password cisco
+service password-encryptiondo wr

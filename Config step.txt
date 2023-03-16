@@ -1,0 +1,11 @@
+#######Config step######
+1. Basic settings to all devices plus ssh on the router and 13 switches.
+2. vlans assignment plus all acess and trunk ports .
+3. switchport security to all 12 switches .
+4. subnetting ans ip addressing 
+5. ospf on the routers and 13 switches .
+6. static ip address to server room devices.
+7. dhcp server device configurations.
+8. Inter vlan routing on the 13 swiches plus ip dhcp helper addresses.
+9.wireless network configurations.
+10. Verifying and testing configurations .
